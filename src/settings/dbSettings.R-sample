@@ -1,0 +1,5 @@
+host = 'localhost'  # Set the hostname or IP address
+port = '5432'  # Set the port the db server is listing at
+dbname = 'NAME_OF_DB'  # Define which databse should be used
+user = 'USERNAME'  # Set the username
+pwd = 'PASSWORT'  # Set password

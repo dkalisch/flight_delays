@@ -1,0 +1,15 @@
+IATA Carrier Code	ICAO Carrier Code	Carrier Name
+AA	AAL	American Airlines
+AS	ASA	Alaska Airlines
+B6	JBU	JetBlue Airways
+DL	DAL	Delta Air Lines
+EV	CAA	Atlantic Southeast Airlines
+F9	FFT	Frontier Airlines
+HA	HAL	Hawaiian Airlines
+MQ	EGF	American Eagle
+NK	NKS	Spirit Airlines
+OO	SKW	SkyWest Airlines
+UA	UAL	United Airlines
+US	USA	US Airways
+WN	SWA	Southwest Airlines
+YV	ASH	Mesa Airlines
