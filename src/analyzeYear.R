@@ -14,7 +14,7 @@ if (!exists("flights")) {
 delaysData.year <- flights %>%
   select(DayOfWeek, FlightDate, Carrier, OriginCityMarketID, Origin,
          CRSDepTime, DepDelay, ArrDelay) %>% # Select variables of interest
-  filter(Year == 2015) %>% # Get only data from 2015
+  filter(Year == 2015L) %>% # Get only data from 2015
   collect() %>% # Collect the data from db
   mutate(
     DayOfWeek = factor(DayOfWeek, levels = c(1:7,9), # Factorise day of the week

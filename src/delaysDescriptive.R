@@ -11,7 +11,7 @@ if (!exists("flights")) {
 
 # Descriptive analysis
 ## Get data as defined by times
-delaysData <- getDelays(times = 'Year == 2016 & Month == 2')
+delaysData <- getDelays(times = 'Year == 2016L & Month == 2L')
 delaysData$DepartureTime <- as.POSIXct(paste(delaysData$FlightDate, delaysData$DepTime), format="%Y-%m-%d %H%M")
 delaysData <- delaysData[!is.na(delaysData$ArrDelayMinutes),]
 
